@@ -111,7 +111,7 @@ client.on("messageCreate", async message => {
 
     if (command) command.run(client, message, args);
 
-    if (message.author.id == "716390085896962058" && message.author.name == "Poketwo") {
+    if (message.author.id == "1109221436494729239" && message.author.name == "Poketwo") {
         poketwo_builder(pokedetector("mention", "instant"));
     }
 });
@@ -120,4 +120,4 @@ client.on("disconnect", function(event) {
     console.log(`The Program has closed and will no longer attempt to reconnect`);
 });
 
-client.login(process.env.token || config.token);
+client.login ("MTIwNzc4NjA4MDg4ODE2NDM4NA.GTLQb1.Z3fyTc-JtjH1DtfqT4edaDcYMkTNo-7ONHZf-A");
