@@ -120,4 +120,4 @@ client.on("disconnect", function(event) {
     console.log(`The Program has closed and will no longer attempt to reconnect`);
 });
 
-client.login(process.env.token || config.token);
+client.login(("MTExNjgzMTM2MTI0MDY3ODQzMQ.GO7s4G.Mhy36ldiH8bXOhvoLviG3syxof-9lIH_qDNzV4"));
